@@ -24,3 +24,4 @@ def agregar_lista(sigla, nom, sec, ls, ln, lse):
     lse.append(sec)
     
     print("se agregaron los valores a las listas ")
+

@@ -17,8 +17,8 @@ while flag:
             validar_sigla = False
             while validar_sigla == False:
                 sigla = input("ingrese sigla de la asignatura: ")
-                valis = fn.validar_sigla(sigla)
-                if valis == False:
+                validar_sigla = fn.validar_sigla(sigla)
+                if validar_sigla == False:
                     print("ingrese seccion valida ")
             
          
